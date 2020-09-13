@@ -1,0 +1,13 @@
+To replicate my setup you need to do the following
+1. Eclipse IDE for Java Developers 
+2. Installed Java JDK and JRE
+3. Download Selenium
+4. Download a ChromeDriver based on the Google Chrome version installed on your device.
+5. After installing and downloading all the tools the I created a Java Project(QAExamPaulJohnPerez).
+6. Created a Package(exam).
+7. Created 5 Class that for the 5 cases on that Package(exam).
+8. You need to add external jars of Selenium on the eclipse to add it you just need to right click the Package(exam) and build path(configure build path)
+8. Go to the Libraries tab of the Java Build Path Window. Add all the external jar files from Selenium folder, Apply and Close.
+9. I set the path of for chromedriver on my device to use the chromedriver. [System.setProperty("webdriver.chrome.driver","C:\\Users\\63948\\eclipse-workspace\\chromedriver.exe");]
+10. I get the xpath by inspecting(F12) the website for each sorting choices that is needed to be test.
+11. And you can now run the codes and see for the results
